@@ -1,0 +1,36 @@
+<div class="navsection template">
+    <ul>
+    
+        <li><a [ngClass]="{'active' : router.url.includes('/home')}" routerLink="/home">Home</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/about')}" routerLink="/about">About</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/skills')}" routerLink="/skills">Skills</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/experience')}" routerLink="/experience">Job Experience</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/projects')}" routerLink="/projects">Projects</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/education')}" routerLink="/education">Education</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/trainingLocal') || router.url.includes('/trainingForeign')}">Training</a>
+            <ul>
+                <li><a [ngClass]="{'active' : router.url.includes('/trainingLocal')}" routerLink="/trainingLocal">Local Training</a></li>
+                <li><a [ngClass]="{'active' : router.url.includes('/trainingForeign')}" routerLink="/trainingForeign">Foreign Training</a></li>
+            </ul>
+        </li>
+        <li><a [ngClass]="{'active' : router.url.includes('/certification')}" routerLink="/certification">Professional
+                Certifications</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/award')}" routerLink="/award">Awards</a></li>
+        <li><a [ngClass]="{'active' : router.url.includes('/contact')}" routerLink="/contact">Contact</a></li>
+
+       
+        
+        
+        <!-- <li><a>Product</a>
+            <ul>
+                <li><a [ngClass]="{'active' : router.url.includes('/product1')}" routerLink="/product1">Product 1</a></li>
+                <li><a [ngClass]="{'active' : router.url.includes('/product2')}" routerLink="/product2">Product 2</a></li>
+                <li><a [ngClass]="{'active' : router.url.includes('/product3')}" routerLink="/product3">Product 3</a></li>
+                <li><a [ngClass]="{'active' : router.url.includes('/product4')}" routerLink="/product4">Product 4</a></li>
+                <li><a [ngClass]="{'active' : router.url.includes('/product5')}" routerLink="/product5">Product 5</a></li>
+            </ul>
+        </li> -->
+
+        
+    </ul>
+</div>

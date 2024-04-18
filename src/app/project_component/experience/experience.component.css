@@ -1,0 +1,22 @@
+.my_container{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top_div p{
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    background: #dff9fb;
+    margin: 15px 0px;
+}
+
+.top_div p:first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}

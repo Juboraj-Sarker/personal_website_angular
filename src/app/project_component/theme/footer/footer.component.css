@@ -1,0 +1,29 @@
+
+.footersection{
+    height: 90px;
+    background: #b7801c;
+    text-align: center;
+}
+.footermenu{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.footermenu ul{
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.footermenu ul li{
+    display: inline-block;
+}
+.footermenu ul li a{
+    color: #e6af4b;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.footersection p{
+    color: #000;
+    font-weight: bold;
+}

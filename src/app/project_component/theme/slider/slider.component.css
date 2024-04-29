@@ -1,5 +1,9 @@
 .slidersection{
     margin-bottom: 0;
+    border-left: 1px solid #CA932F;
+    border-right: 1px solid #CA932F;
+    box-sizing: border-box;
 }
+
 
 

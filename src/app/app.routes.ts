@@ -10,10 +10,9 @@ import { SkillsComponent } from './project_component/skills/skills.component';
 import { ExperienceComponent } from './project_component/experience/experience.component';
 import { ProjectsComponent } from './project_component/projects/projects.component';
 import { EducationComponent } from './project_component/education/education.component';
-import { TrainingLocalComponent } from './project_component/training-local/training-local.component';
-import { TrainingForeignComponent } from './project_component/training-foreign/training-foreign.component';
 import { CeertificationComponent } from './project_component/ceertification/ceertification.component';
 import { AwardComponent } from './project_component/award/award.component';
+import { TrainingComponent } from './project_component/training/training.component';
 
 export const routes: Routes = [
   {
@@ -27,8 +26,7 @@ export const routes: Routes = [
       { path: 'experience', component: ExperienceComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'education', component: EducationComponent },
-      { path: 'trainingLocal', component: TrainingLocalComponent },
-      { path: 'trainingForeign', component: TrainingForeignComponent },
+      { path: 'training', component: TrainingComponent },
       { path: 'certification', component: CeertificationComponent },
       { path: 'award', component: AwardComponent },
       { path: 'contact', component: ContactComponent },
@@ -41,13 +39,4 @@ export const routes: Routes = [
   { path: '**', component: MainComponent },
 ];
 
-@NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      preloadingStrategy: PreloadAllModules,
-      useHash: true,
-    }),
-  ],
-  exports: [RouterModule],
-})
-export class AppRoutingModule {}
+

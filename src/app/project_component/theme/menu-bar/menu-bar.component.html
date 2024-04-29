@@ -7,12 +7,16 @@
         <li><a [ngClass]="{'active' : router.url.includes('/experience')}" routerLink="/experience">Job Experience</a></li>
         <li><a [ngClass]="{'active' : router.url.includes('/projects')}" routerLink="/projects">Projects</a></li>
         <li><a [ngClass]="{'active' : router.url.includes('/education')}" routerLink="/education">Education</a></li>
-        <li><a [ngClass]="{'active' : router.url.includes('/trainingLocal') || router.url.includes('/trainingForeign')}">Training</a>
+        <li><a [ngClass]="{'active' : router.url.includes('/training')}" routerLink="/training">Training</a></li>
+        
+        <!-- <li><a [ngClass]="{'active' : router.url.includes('/trainingLocal') || router.url.includes('/trainingForeign')}">Training</a>
             <ul>
                 <li><a [ngClass]="{'active' : router.url.includes('/trainingLocal')}" routerLink="/trainingLocal">Local Training</a></li>
                 <li><a [ngClass]="{'active' : router.url.includes('/trainingForeign')}" routerLink="/trainingForeign">Foreign Training</a></li>
             </ul>
-        </li>
+        </li> -->
+
+
         <li><a [ngClass]="{'active' : router.url.includes('/certification')}" routerLink="/certification">Professional
                 Certifications</a></li>
         <li><a [ngClass]="{'active' : router.url.includes('/award')}" routerLink="/award">Awards</a></li>

@@ -3,7 +3,7 @@ $(window).load(function () {
         effect: 'random',
         slices: 10,
         animSpeed: 500,
-        pauseTime: 2200,
+        pauseTime: 3200,
         startSlide: 0, //Set starting Slide (0 index)
         directionNav: false,
         directionNavHide: false, //Only show on hover
@@ -17,5 +17,3 @@ $(window).load(function () {
         slideshowEnd: function () { } //Triggers after all slides have been shown
     });
 });
-
-console.log("COME HERE")

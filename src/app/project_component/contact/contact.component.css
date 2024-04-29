@@ -3,7 +3,8 @@ input[type="text"], input[type="email"], input[type="password"]{
     border: 1px solid #cfc5b6;
     margin-bottom: 5px;
     padding: 5px;
-    width: 300px;
+    width: 400px;
+    height: 20px;
     border-radius: 3px;
 }
 input[type="submit"]{
@@ -20,12 +21,24 @@ input[type="submit"]:hover{
 }
 textarea{
     height: 110px;
-    width: 300px;
+    width: 400px;
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #cfc5b6;
 }
 
+
+.td1{
+    width: 30%;
+}
+
+.td2{
+    width: 5%;
+}
+
+.td3{
+    width: 65%;
+}
 
 .about img{
     background: #fff;
@@ -80,4 +93,34 @@ textarea{
 .top_div p:first-letter{
     font-size: 25px;
     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.bottom_div{
+    margin-top: 425px;
+}
+
+
+.bottom_div p{
+    padding: 20px 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    background: #dff9fb;
+    margin: 15px 0px;
+}
+
+.my-quote{
+    font-size: 35px;
+    color: #B7801C;
 }

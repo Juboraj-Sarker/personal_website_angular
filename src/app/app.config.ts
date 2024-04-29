@@ -10,3 +10,5 @@ export const appConfig: ApplicationConfig = {
     { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],
 };
+
+// Use hash and use path need to use here

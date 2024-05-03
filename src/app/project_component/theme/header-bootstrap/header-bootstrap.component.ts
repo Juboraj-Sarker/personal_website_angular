@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header-bootstrap.component.html',
-  styleUrls: ['./header-bootstrap.component.css', '../../../../assets/bootstrap/css/bootstrap.css']
+  styleUrls: ['./header-bootstrap.component.css']
 })
 export class HeaderBootstrapComponent {
 

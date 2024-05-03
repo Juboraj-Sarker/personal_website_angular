@@ -116,7 +116,7 @@
 
 .my_item h3{
  /* background: #e67e22; */
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 0px;
   padding-right: 5px;
@@ -131,13 +131,13 @@
 
 .div1{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 5px;
     box-sizing: border-box;
 }
 
 .div2{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     box-sizing: border-box;
 }
 
@@ -158,14 +158,14 @@
     width: 100%;
 }
 .div2 table tr th{
-    padding: 10px;
+    padding: 5px 10px;
     text-align: left;
     border: 1px solid #ccc;
     width: 30%;
 }
 
 .div2 table tr td{
-    padding: 10px;
+    padding: 5px 10px;
     text-align: left;
     border: 1px solid #ccc;
     width: 70%;
@@ -204,7 +204,7 @@ ul li{
   z-index: 99999; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
-  top: 0;
+  top: -80px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -248,7 +248,7 @@ ul li{
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding: 1rem;
+    padding: 5px 15px;
     border-top: 1px solid #e9ecef;
 }
 .btn {
@@ -262,7 +262,7 @@ ul li{
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    padding: .375rem .75rem;
+    padding: 5px 15px;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
@@ -284,7 +284,7 @@ ul li{
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1rem;
+    padding: 5px;
 }
 
 

@@ -35,7 +35,9 @@
               "src/assets/js/jquery.js",
               "src/assets/js/jquery.nivo.slider.js",
               "src/assets/js/my-slider.js",
-              "src/assets/js/my-html-tab.js"
+              "src/assets/js/my-html-tab.js",
+               "src/assets/js/google-analytics-default.js",
+                "src/assets/js/google-analytics.js"
             ]
           },
           "configurations": {

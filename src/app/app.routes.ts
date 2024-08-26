@@ -13,6 +13,7 @@ import { EducationComponent } from './project_component/education/education.comp
 import { CeertificationComponent } from './project_component/ceertification/ceertification.component';
 import { AwardComponent } from './project_component/award/award.component';
 import { TrainingComponent } from './project_component/training/training.component';
+import { EmailComponent } from './project_component/email/email.component';
 
 export const routes: Routes = [
   {
@@ -30,6 +31,8 @@ export const routes: Routes = [
       { path: 'certification', component: CeertificationComponent },
       { path: 'award', component: AwardComponent },
       { path: 'contact', component: ContactComponent },
+
+      { path: 'email', component: EmailComponent },
 
       { path: '**', component: NotFoundComponent },
     ],

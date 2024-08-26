@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+th{
+  text-align: left;
+}
+
+
+
+input{
+  height: 30px;
+  margin-right: 8px;
+  width: 95%;
+}
+
+button{
+  min-height: 25px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+
+
+#body{
+  color: black;
+}

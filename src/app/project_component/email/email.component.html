@@ -1,0 +1,68 @@
+<table>
+  <tr>
+    <th>
+      Professor FN
+    </th>
+
+    <th>
+      Professor LN
+    </th>
+
+    <th>
+      University Name
+    </th>
+
+    <th>
+      Subject (AI, ML etc)
+    </th>
+
+    <th>
+      Professor's Research
+    </th>
+  </tr>
+
+  <tr>
+    <td>
+      <input [(ngModel)]="firstName" id="fn" type="text">
+    </td>
+    <td>
+      <input [(ngModel)]="lastName" id="ln" type="text">
+    </td>
+
+    <td>
+      <input [(ngModel)]="universityName" id="university" type="text">
+    </td>
+
+    <td>
+      <input [(ngModel)]="field" id="field" type="text">
+    </td>
+
+    <td>
+      <input [(ngModel)]="researchArea" id="research" type="text">
+    </td>
+
+    <td>
+      <button (click)="generateEmail()">Generate Email</button>
+    </td>
+  </tr>
+
+  <tr style="background: #f5f5f5;">
+    <td colspan="6" style="padding: 5px 10px;">
+      <p id="body" style="margin-top: 10px;">{{emailTitle}}</p> 
+      <p id="body">{{emailPara1}}</p> <br>
+      <p id="body">{{emailPara2}}</p> <br>
+      <p id="body">{{emailPara3}}</p> <br>
+      <p id="body">{{emailPara4}}</p> <br>
+      <p id="body">{{emailPara5}}</p> <br>
+
+      <p id="body">{{emailSignature1}}</p> 
+      <p id="body">{{emailSignature2}}</p> 
+      <p id="body">{{emailSignature3}}</p> 
+      <p id="body">{{emailSignature4}}</p> 
+      <p id="body">{{emailSignature5}}</p> 
+      <p id="body">{{emailSignature6}}</p> 
+
+      
+    </td>
+  </tr>
+</table>
